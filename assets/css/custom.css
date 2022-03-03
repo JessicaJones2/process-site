@@ -5,29 +5,25 @@
 
 /* If you want to add a background image to the home page banner instead of using a solid color.
 Just un comment the #banner rule below. */
-/* #banner {
-  background-image: url(../../images/pic01.jpg);
-  background-size: cover;
-  color: rgba(255, 255, 255, 0.75);
-  text-shadow: 1px 1px 15px #333;
-  text-align: center;
-  cursor: default;
-  padding: 10em 4em 9em 4em;
-} */
-
-
-
 /* If you want to change the banner button color. The following two css rules use a class called "redbtn".
 You can call the class whatever you want, but in order for it to work, it needs to be
 added to the button in the index html file as well.*/
+
+#banner{
+  background-image: url(../../images/hand_art.png);
+}
+
 #banner .button.redbtn {
-  background-color: rgba(188, 46, 26, 1);
+  background-color: rgb(26, 129, 188);
   box-shadow: none;
+  color: black;
 }
 
 #banner .button.redbtn:hover {
-  background-color: rgba(188, 46, 26, .8);
+  background-color: rgba(97, 66, 206, 0.8);
+  box-shadow: none;
 }
+
 
 
 
@@ -41,4 +37,8 @@ border: 1px solid grey !important;
 
  .imgae-shadoew{
    box-shadow: 1px 1px 15px grey !important;
+ }
+
+ #banner h1{
+color:black;
  }
