@@ -10,13 +10,16 @@ You can call the class whatever you want, but in order for it to work, it needs 
 added to the button in the index html file as well.*/
 
 #banner{
-  background-image: url(../../images/hand_art.png);
+  background-image: url(../../images/Americas-mural375.gif);
+  position:relative; border-left: 50%;
 }
 
 #banner .button.redbtn {
-  background-color: rgb(26, 129, 188);
+  background-color: rgb(245, 247, 248);
+  border-radius: 40%;
   box-shadow: none;
   color: black;
+  text-emphasis-color: black;
 }
 
 #banner .button.redbtn:hover {
@@ -40,5 +43,6 @@ border: 1px solid grey !important;
  }
 
  #banner h1{
-color:black;
+color:rgb(250, 250, 248);
+position:relative; top: -70px;
  }
