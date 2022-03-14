@@ -15,7 +15,7 @@ added to the button in the index html file as well.*/
 }
 
 #banner .button.redbtn {
-  background-color: rgb(245, 247, 248);
+  background-color: rgba(97, 66, 206, 0.8);
   border-radius: 40%;
   box-shadow: none;
   color: black;
@@ -23,7 +23,7 @@ added to the button in the index html file as well.*/
 }
 
 #banner .button.redbtn:hover {
-  background-color: rgba(97, 66, 206, 0.8);
+  background-color: rgb(245, 247, 248);
   box-shadow: none;
 }
 
