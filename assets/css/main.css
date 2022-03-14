@@ -1595,7 +1595,7 @@ take precedence the ones in this file. */
 	body, input, select, textarea {
 		font-family: 'Montserrat', sans-serif;
 		font-size: 16pt;
-		font-weight: 300;
+		font-weight: 200;
 		line-height: 1.75;
 	}
 
@@ -1624,7 +1624,7 @@ take precedence the ones in this file. */
 		}
 
 	strong, b {
-		font-weight: 700;
+		font-weight: 200;
 	}
 
 	em, i {
@@ -2081,7 +2081,7 @@ take precedence the ones in this file. */
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-weight: 300;
+			font-weight: 200;
 			padding-left: 2.4em;
 			padding-right: 0.75em;
 			position: relative;
