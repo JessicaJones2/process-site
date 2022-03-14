@@ -10,8 +10,11 @@ You can call the class whatever you want, but in order for it to work, it needs 
 added to the button in the index html file as well.*/
 
 #banner{
-  background-image: url(../../images/Americas-mural375.gif);
-  position:relative; border-left: 50%;
+  /* background-image: url(../../images/Americas-mural375.gif); */
+  /* position:relative; border-left: 50%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: cornflowerblue;
 }
 
 #banner .button.redbtn {
@@ -23,7 +26,7 @@ added to the button in the index html file as well.*/
 }
 
 #banner .button.redbtn:hover {
-  background-color: rgb(245, 247, 248);
+  background-color: rgb(98, 117, 126);
   box-shadow: none;
 }
 
@@ -44,5 +47,5 @@ border: 1px solid grey !important;
 
  #banner h1{
 color:rgb(250, 250, 248);
-position:relative; top: -70px;
+/* position:relative; top: -70px; */
  }
